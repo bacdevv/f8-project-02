@@ -92,6 +92,10 @@ a {
 	background: var(--primary-color);
 }
 
+.chevron-btn-bottom {
+	display: none;
+}
+
 /* =========== HEADER =========== */
 .header {
 	position: sticky;
@@ -360,12 +364,17 @@ a {
 	color: #fff;
 	background: var(--primary-color);
 }
+
+.menu-drawer {
+	display: none;
+}
 /* =========== Feedback =========== */
 .feedback {
 	display: flex;
 	align-items: center;
-	height: 380px;
+	height: auto;
 	margin-top: 135px;
+	padding: 70px;
 	background: #2e2100;
 }
 
